@@ -5,16 +5,18 @@ import { Dropdown } from "flowbite-react";
 const TopNav = () => {
   return (
     <Fragment>
-      <div className="bg-slate-50 font-Roboto text-gray-500 tracking-wide font-medium text-base">
-        <div className="w-full container mx-auto sm:px-32 sm:py-4">
-          <div className="flex items-center justify-between">
+      <div className="w-full bg-slate-50 font-Roboto text-gray-500 tracking-wide font-medium text-base">
+        <div className="container mx-auto px-3 sm:px-32 py-4">
+          <div className="flex flex-row items-center justify-between">
             <div>
               Need help? call us :{" "}
               <span className="hover hover:text-red-500">
                 (+92) 0123 456 789
               </span>
             </div>
-            <div>With warranty & free shipping for above $78.00</div>
+            <div className="hidden sm:visible">
+              With warranty & free shipping for above $78.00
+            </div>
             <div className="flex items-center">
               <div className="">
                 <Dropdown
