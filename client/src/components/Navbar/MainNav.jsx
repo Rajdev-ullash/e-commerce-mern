@@ -28,9 +28,9 @@ const MainNav = () => {
                 <li className="hover hover:text-red-500 group relative">
                   {/* on hover show a product 4 category */}
                   Shop
-                  <div className="absolute hidden group-hover:block">
+                  <div className="absolute hidden group-hover:block group-hover:z-50">
                     {/* w-96 h-48 bg-gray-400 card in middle position */}
-                    <div className="w-[870px] h-64 -ml-60 mt-4 shadow hover:shadow-gray-400 bg-white transition hover:transition-all hover:duration-500 hover:ease-out ">
+                    <div className="w-[870px] h-64 -ml-60 mt-4 shadow hover:shadow-gray-400 bg-white transition hover:transition-all hover:duration-500 hover:ease-out">
                       <div className="flex flex-row gap-4 px-2 py-2 justify-center items-center">
                         <div className="w-1/4 h-full mt-3 transition-all hover:-translate-y-1 duration-700">
                           <div className="flex flex-col gap-1">
@@ -121,7 +121,7 @@ const MainNav = () => {
                   </div>
                 </div>
               </div>
-              <div className="absolute hidden group-hover:block ">
+              <div className="absolute hidden group-hover:block z-50">
                 {/* category Name */}
                 <div className="w-80 bg-white mt-4 shadow group-hover:transition-all group-hover:duration-700 group-hover:ease-in-out">
                   <ul>
